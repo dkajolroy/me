@@ -1,0 +1,135 @@
+/* @media screen and (max-device-width: 480px) {
+    .comments .comments-content .comment-replies{margin-left:0}
+    }
+    a.quickedit {
+    display: none;
+    } */
+    /*-------------------------------------------*/
+    /*  12. Responsive CSS
+    /*-------------------------------------------*/
+
+@media (min-width: 768px) {
+.navbar-default.navbar-expanded,
+.navbar-inverse.navbar-expanded {
+border: none;
+background: 0 0;
+}
+.navbar-fixed-top.navbar-expanded {
+padding: 30px 0;
+opacity: 0;
+visibility: hidden;
+}
+.navbar-fixed-top.navbar-expanded.navbar-visible {
+padding: 10px 0;
+opacity: 1;
+background: #fff;
+}
+
+}
+@media (max-width: 480px) {
+.hero .hero-content h1 {
+font-size: 4.4rem;
+}
+}
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav>li>a:before{display:none;}
+.Header h1 {
+padding: 0px 15px;
+}
+.aisa-copyright , .aisa-right{
+text-align: center; /*!important;*/
+}
+.contact-detail {
+padding: 40px; /*!important;*/
+padding-bottom: 0; /*!important;*/
+}
+.Header h1,
+.about-content .skills-info .title,
+.about-content .skills-info .skill-text{
+    text-align: center;
+}
+}
+@media screen and (max-width: 960px) {
+.worksItem{width:100%!important}
+.ct-wrapper{padding:0 15px}
+.main-wrapper{margin-right:0;width:100%}
+.sidebar-wrapper{float:none;width:auto!important}
+}
+@media (max-width: 380px) {
+.hero .hero-content .group-button a {
+display: block;
+margin: 10px;
+}
+}
+@media (max-width: 480px) {
+.hero .hero-content .button {
+line-height: 3rem;
+height: 5rem;
+}
+}
+@media (max-width: 768px)
+{
+.social-link
+{
+margin-bottom: 30px;
+}
+}
+
+@media (min-width: 768px){
+.vc_col-sm-4 {
+width: 33.33333333%;
+}}
+@media (min-width: 768px){
+.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9 {
+float: left;
+}
+.vc_col-sm-12 {
+width: 100%;
+}
+}
+@media (max-width: 991px)
+{
+.fun-box
+{
+margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 960px){
+.ct-wrapper{    padding:0 15px;
+}
+.main-wrapper{
+margin-right:0;
+width:100%;
+}
+.sidebar-wrapper{
+float:left;
+width:auto;
+margin-left:20px;
+}
+}
+@media screen and (max-width: 768px){
+#comment-editor{
+margin:10px;
+}
+.footer{
+width:50%;
+}
+}
+@media screen and (max-width: 420px){
+.comments .comments-content .datetime{    display:block;
+float:none;
+}
+.comments .comments-content .comment-header{
+height:70px;
+}
+}
+@media screen and (max-width: 320px){
+.footer { width:100%;
+}
+.ct-wrapper{
+padding:0;
+}
+.comments .comments-content .comment-replies{
+margin-left:0;
+}
+}
